@@ -49,26 +49,21 @@ int main()
 
     printf("enter array length: ");
     scanf("%d", &n);
-
-    array = (int*)malloc(sizeof(int) * n);
-
+    
     for(i=0; i<n; i++) {
         printf("\nEnter %d. element: ", i);
         scanf("%d", &array[i]);
     }
 
     selectionSort(array, n);
-
     printf("\nAfter the sorting : \n\n");
-
     for(i=0; i<n; i++) {
         printf("%d ", array[i]);
     }
-
+    
     printf("\n\n");
 
     selectionSort2(array, n);
-
     for(i=0; i<n; i++) {
         printf("%d ", array[i]);
     }
