@@ -23,6 +23,9 @@ void Merge(int *array, int p, int q, int r) {
     for(j=0; j<n2; j++) {
         R[j] = array[q+j+1];
     }
+    
+    L[n1] = 111111111;
+    R[n2] = 111111111;
 
     i = j = 0;
 
