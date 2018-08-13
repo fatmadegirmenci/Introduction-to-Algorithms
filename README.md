@@ -1,2 +1,2 @@
 # Introduction-to-Algorithms
-CLRS
+CLRS - Introduction to Algorithms Third Edition
