@@ -58,7 +58,7 @@ int main()
         printf("\nThe element that you are looking for is not found.");
     }
     else {
-        printf("\nThe element that you are looking for is found at %d. index.", returnValue);
+        printf("\nThe element that you are looking for is found in %d. index.", returnValue);
     }
 
     printf("\n\n");
